@@ -30,8 +30,8 @@ export const projects = [
             'GraphQL',
             'PostgreSQL'
         ],
-        repo: '',
-        description: 'An experiment using different heuristic approaches to improve performance of informed search algorithms on puzzle instances'
+        repo: 'https://github.com/ptdo/informed-search-algos',
+        description: 'An experiment using different heuristics to improve performance of informed search algorithms on 8-puzzle instances'
     },
     {
         title: 'Image Processing Program',
