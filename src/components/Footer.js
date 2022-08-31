@@ -9,16 +9,15 @@ import {
     FaGithub, 
     FaLinkedin, 
     FaInstagram, 
-    FaHeartbeat,
     FaHandHoldingHeart
 } from 'react-icons/fa'
 
 export default function Footer() {
     return (
         <>
-            <Flex paddingTop='2rem'>
+            <Flex>
                 <Stack
-                    paddingLeft='15%'
+                    paddingLeft='18%'
                     pt="8"
                     pb="12"
                     justify="space-between"

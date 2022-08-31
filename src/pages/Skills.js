@@ -1,7 +1,6 @@
 import { 
     Flex, 
-    Heading, 
-    Divider,
+    Heading,
     IconButton,
     ButtonGroup,
     Text
@@ -23,8 +22,7 @@ import {
     FaPython,
     FaGitAlt,
     FaAws,
-    FaReact,
-    Fa
+    FaReact
 } from 'react-icons/fa'
 
 export default function Skills() {
@@ -38,7 +36,7 @@ export default function Skills() {
             </Flex>
 
             <ButtonGroup
-                padding='2rem 20% 5rem 20%'
+                padding='3rem 20% 5rem 22%'
                 display='flex'
                 spacing={3}
                 flexWrap='wrap'

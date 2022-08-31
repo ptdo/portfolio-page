@@ -21,16 +21,24 @@ export default function Projects(){
             <SimpleGrid 
                 columns={2} 
                 spacing='3rem'
-                padding="5rem 15% 5rem 21%"
+                padding="3rem 25% 5rem 21%"
             >
                 {projects.map((project) => (
                     <Flex display='block' paddingLeft='2rem'>
-                        <Text 
-                            fontSize="2xl" 
-                            fontWeight='bold'
-                        >
-                            {project.title}
-                        </Text>
+                        <Flex>
+                            <Text 
+                                fontSize="2xl" 
+                                fontWeight='bold'
+                            >
+                                {project.title}
+                            </Text>
+                            <IconButton
+                                as="a" 
+                                href={project.repo} 
+                                icon={<FaGithub />}
+                                variant='ghost'
+                            />
+                        </Flex>
                         <Text 
                             fontSize="xl"
                             fontStyle='italic'
@@ -40,17 +48,10 @@ export default function Projects(){
                         
                         <Text
                             fontSize="xl"
-                            paddingRight='25%'
+                            paddingRight='2rem 25% 0 20%'
                         >
                             {project.description}
                         </Text>
-
-                        <IconButton
-                            padding='1rem'
-                            as="a" 
-                            href={project.repo} 
-                            icon={<FaGithub />}
-                        />
                     </Flex>
                 ))}
             </SimpleGrid>

@@ -32,7 +32,7 @@ export default function About(){
                 
             </Flex>
             <Flex
-                padding="0 20% 8rem 20%"
+                padding="0 20% 5rem 20%"
                 alignSelf="center"
                 w="100%"
             >
