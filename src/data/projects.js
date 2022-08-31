@@ -1,21 +1,11 @@
 export const projects = [
     {
-        title: 'Boba API',
-        stacks: [
-            'TypeScript',
-            'Apollo',
-            'GraphQL',
-            'PostgreSQL'
-        ],
-        repo: '',
-        description: ''
-    },
-    {
         title: 'Portfolio Website',
         stacks: [
             'JavaScript',
             'React',
-            'Chakra UI'
+            'Chakra UI',
+            'EmailJS'
         ],
         repo: '',
         description: 'A webpage about myself'
@@ -31,6 +21,17 @@ export const projects = [
         ],
         repo: 'https://github.com/ptdo/hockey-league',
         description: 'A full-stack CRUD web application that simulates a Hockey League'
+    },
+    {
+        title: 'Improved Informed Search',
+        stacks: [
+            'TypeScript',
+            'Apollo',
+            'GraphQL',
+            'PostgreSQL'
+        ],
+        repo: '',
+        description: 'An experiment using different heuristic approaches to improve performance of informed search algorithms on puzzle instances'
     },
     {
         title: 'Image Processing Program',

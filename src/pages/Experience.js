@@ -69,7 +69,6 @@ export default function Experience(){
                         </UnorderedList>
                     </Flex>
                 </Flex>
-
             </Flex>
         </>
     )

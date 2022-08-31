@@ -49,14 +49,11 @@ export default function Projects(){
                             padding='1rem'
                             as="a" 
                             href={project.repo} 
-                            icon={<FaGithub fontSize="1.75rem" />}
+                            icon={<FaGithub />}
                         />
                     </Flex>
                 ))}
             </SimpleGrid>
-
-                
-            
         </>
     )
 }

@@ -1,17 +1,21 @@
 import {
     ButtonGroup,
-    Divider,
     IconButton,
     Stack,
     Text,
     Flex
   } from '@chakra-ui/react'
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { 
+    FaGithub, 
+    FaLinkedin, 
+    FaInstagram, 
+    FaHeartbeat,
+    FaHandHoldingHeart
+} from 'react-icons/fa'
 
 export default function Footer() {
     return (
         <>
-            <Divider />
             <Flex paddingTop='2rem'>
                 <Stack
                     paddingLeft='15%'
@@ -20,8 +24,8 @@ export default function Footer() {
                     justify="space-between"
                     direction={{ base: 'column-reverse', md: 'row' }}
                 >
-                    <Text fontSize="md" color="subtle" paddingRight='2rem'>
-                        &copy; {new Date().getFullYear()} RD. All rights reserved.
+                    <Text fontSize="md" color="subtle" paddingRight='2rem' display='flex'>
+                        &copy; {new Date().getFullYear()} Made by RD with <FaHandHoldingHeart fontSize="1.5rem"/>
                     </Text>
                     <ButtonGroup variant="ghost">
                         <IconButton
