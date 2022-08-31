@@ -7,7 +7,7 @@ export const projects = [
             'Chakra UI',
             'EmailJS'
         ],
-        repo: '',
+        repo: 'https://github.com/ptdo/portfolio-page',
         description: 'A webpage about myself'
     },
     {
