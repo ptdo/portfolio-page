@@ -18,7 +18,7 @@ const colors = {
 
 const theme = extendTheme({ colors })
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ChakraProvider theme={theme}>
       <App />
     </ChakraProvider>

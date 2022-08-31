@@ -2,7 +2,7 @@
   "homepage": "http://ptdo.github.io/portfolio-page",
   "name": "portfolio-page",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
     "@emailjs/browser": "^3.6.2",
@@ -21,11 +21,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
