@@ -48,7 +48,7 @@ export default function Projects(){
                         
                         <Text
                             fontSize="xl"
-                            paddingRight='2rem 25% 0 20%'
+                            padding='1rem 25% 0 0%'
                         >
                             {project.description}
                         </Text>
